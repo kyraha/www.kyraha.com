@@ -7,21 +7,21 @@
         "url": "http://mikhail.kyraha.com/"
     },
     {
-        "image": "../images/Blogger-Button.png",
+        "image": "images/Blogger-Button.png",
         "text": "Новости, заметки, мысли - это всё теперь называется Блог.
             Кыраһа-дот-ком использует для блоггинга Blogger. Вы можете
             найти наши новости и даже кое-что из старого по этой ссылке.",
         "url": "https://blog.kyraha.com/"
     },
     {
-        "image": "../images/sah-keyboard-100x100.jpg",
+        "image": "images/sah-keyboard-100x100.jpg",
         "text": "Проект якутской раскладки клавиатуры для X.org (Linux, Unix)
             на GitHub. Проект открытый, под свободной лицензией
             MIT, бесплатно.",
         "url": "https://github.com/kyraha/sah-xkb"
     },
     {
-        "image": "../images//Android-logo.jpg",
+        "image": "images//Android-logo.jpg",
         "text": "Проект якутской раскладки клавиатуры для Android OS на GitHub.
             Проект открытый, под свободной лицензией Apache 2.0,
             бесплатно.",
