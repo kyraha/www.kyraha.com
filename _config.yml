@@ -2,6 +2,7 @@ theme: jekyll-theme-architect
 title: Kyrahalar's web
 description: Bring me that horizon!
 show_downloads: false
+exclude: ['README.md']
 
 github:
   is_project_page: false

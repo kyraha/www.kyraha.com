@@ -37,6 +37,12 @@
         </section>
 
         <aside id="sidebar">
+          {% if site.data.side_menu %}
+            {% for item in site.data.side_menu %}
+              <a href="{{ item.name }}.html" class="button">{{ item.title }}</a>
+            {% endfor %}
+          {% endif %}
+
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="button">
               <small>Download</small>
