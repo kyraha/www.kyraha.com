@@ -1,1 +1,8 @@
 theme: jekyll-theme-architect
+title: Kyrahalar's web
+description: Bring me that horizon!
+show_downloads: false
+
+github:
+  is_project_page: false
+  is_user_page: false
