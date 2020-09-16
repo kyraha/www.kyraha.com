@@ -2,6 +2,7 @@
 title: О нас
 layout: default
 bodyClass: page-home
+contactUs: true
 ---
 
 # Kyraha.com
@@ -31,5 +32,15 @@ bodyClass: page-home
 
 ## Как связаться
 
-Хотите написать письмо?
-Пишите <имя>(эт)кыраhа(точка)ком. 
+<form id="contact-form" method="post">
+    Name: имя под которым мы вас знаем.
+    <input type="text" style="height:35px;" id="name-input" placeholder="Enter name here…" class="form-control" style="width:100%;" /><br/>
+    Phone: если хотите связаться с нами через Signal, или Email: если электронной почтой.
+    <input type="phone" style="height:35px;" id="phone-input" placeholder="Phone number or email" class="form-control" style="width:100%;"/><br/>
+    "Я не робот". Переведите на английский и введите слово "таблица":
+    <input type="email" style="height:35px;" id="email-input" placeholder="English please…" class="form-control" style="width:100%;"/><br/>
+    Если мы уже давно знакомы, пожалуйста напомните, каким образом. А если мы ещё не знакомы,
+    то какую пользу принесёт вам (или нам) это новое знакомство.
+    <textarea id="description-input" rows="3" placeholder="Enter your message…" class="form-control" style="width:100%;"></textarea><br/>
+    <button type="button" onClick="submitToAPI(event)" class="btn btn-lg" style="margin-top:20px;">Submit</button>
+</form>
