@@ -1,6 +1,6 @@
 [
     {
-        "image": "https://github.githubassets.com/images/icons/emoji/octocat.png",
+        "image": "images/FaceHead.png",
         "text": "Mikhail Kyraha is the maintainer and a humble administrator of the
             services at Kyraha.com. For professional information
             check out his personal page at the link below.",
@@ -11,7 +11,7 @@
         "text": "Новости, заметки, мысли - это всё теперь называется Блог.
             Кыраһа-дот-ком использует для блоггинга Blogger. Вы можете
             найти наши новости и даже кое-что из старого по этой ссылке.",
-        "url": "http://blog.kyraha.com/"
+        "url": "http://www.kyraha.com/blog/"
     },
     {
         "image": "images/sah-keyboard-100x100.jpg",

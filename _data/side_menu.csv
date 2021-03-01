@@ -1,6 +1,7 @@
 title,name
-Home,index
-About us,about
-О нас,about.ru
-Форум,signal-group
-Sakha symbols,sakha-symbols-in-utf-8
+Home,index.html
+Блог,blog/
+Форум,signal-group.html
+About us,about.html
+О нас,about.ru.html
+Sakha symbols,sakha-symbols-in-utf-8.html

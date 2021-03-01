@@ -7,3 +7,7 @@ exclude: ['README.md']
 github:
   is_project_page: false
   is_user_page: false
+
+plugins: [ jekyll-paginate ]
+paginate: 10
+paginate_path: "/blog/page:num/"
