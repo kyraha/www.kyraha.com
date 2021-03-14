@@ -1,0 +1,203 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background: #2e7bcf url(../images/header-bg.png) center repeat-x;
+}
+
+.inner {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+  
+.inner-logo {
+    position: relative;
+    width: 100px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+a.button {
+    width: 146px;
+    height: 58px;
+    padding-top: 22px;
+    padding-left: 68px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+    font-size: 23px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+aside a.button {
+    display: block;
+    width: 146px;
+    height: 40px;
+    padding-left: 56px;
+    padding-top: 16px;
+    margin-bottom: 6px;
+    font-size: 21px;
+    background: transparent url(../images/common-button.png) 0 0 no-repeat;
+}
+#content-wrapper {
+    padding: 70px 20px 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#nav-container {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    pointer-events: none;
+}
+#nav-container .bg {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 70px);
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+    background: #000;
+}
+#nav-container:focus-within .bg {
+    visibility: visible;
+    opacity: .6;
+}
+#nav-container * {
+    visibility: hidden;
+}
+  
+.nav-button {
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    -webkit-appearance: none;
+    border: 0;
+    background: transparent;
+    border-radius: 0;
+    height: 70px;
+    width: 30px;
+    cursor: pointer;
+    pointer-events: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.icon-bar {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #aaa;
+    transition: .3s;
+}
+.icon-bar + .icon-bar {
+    margin-top: 5px;
+}
+  
+#nav-container:focus-within .nav-button {
+    pointer-events: none;
+}
+#nav-container:focus-within .icon-bar:nth-of-type(1) {
+    transform: translate3d(0,8px,0) rotate(45deg);
+}
+#nav-container:focus-within .icon-bar:nth-of-type(2) {
+    opacity: 0;
+}
+#nav-container:focus-within .icon-bar:nth-of-type(3) {
+    transform: translate3d(0,-8px,0) rotate(-45deg);
+}
+
+#nav-content {
+    margin-top: 70px;
+    padding: 20px;
+    width: 90%;
+    max-width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: calc(100% - 70px);
+    background: #ececec;
+    pointer-events: auto;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    transform: translateX(100%);
+    transition: transform .3s;
+    will-change: transform;
+    contain: paint;
+}
+  
+#nav-container:focus-within #nav-content {
+    transform: none;
+}
+
+/* #Media Queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) { }
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .inner {
+    width: 740px;
+  }
+  header h1, header h2 {
+    width: 540px;
+  }
+  header h1 {
+    font-size: 64px;
+  }
+  header h2 {
+    font-size: 30px;
+  }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  .inner {
+    width: 93%;
+  }
+  .inner-logo {
+    margin-right: 40px;
+  }
+  header {
+    padding: 20px 0;
+  }
+  header .inner {
+    position: relative;
+  }
+  header h1, header h2 {
+    width: 100%;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 24px;
+  }
+  #nav-container * {
+    visibility: visible;
+  }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) { }
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) { }

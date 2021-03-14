@@ -15,12 +15,15 @@
   </head>
 
   <body>
-    <header>
+    <header tabindex="0">
       <div class="inner">
         <a href="{{ '/' | absolute_url }}">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+      </div>
+      <div class="inner-logo">
+        <img src="{{ 'images/header-boat.png' | relative_url }}" />
       </div>
     </header>
 
@@ -53,5 +56,21 @@
       </div>
     </div>
 
-  </body>
+    <div id="nav-container">
+      <div class="bg"></div>
+      <div class="nav-button" tabindex="0">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </div>
+      <aside id="nav-content" tabindex="0">
+        {% if site.data.side_menu %}
+          {% for item in site.data.side_menu %}
+            <a href="{{ item.name | relative_url }}" class="button">{{ item.title }}</a>
+          {% endfor %}
+        {% endif %}
+      </aside>
+    </div>
+
+</body>
 </html>
