@@ -1,10 +1,10 @@
 ---
 title: About Us
-layout: default
+layout: page
 bodyClass: page-home
 ---
 
-# Kyraha.com
+## Kyraha.com
 
 This unique place on the Web you are staring at has been created and is voluntarily supported by Kyraha family (The Owner). Initially this web site was designed as a proving ground for testing new information technologies. It still is though. However that fact doesn't prevent it to exist for the common good. Many projects once started here as an experiment now got their own developers and continue to develop independently.
 

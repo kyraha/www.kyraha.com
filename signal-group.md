@@ -1,6 +1,6 @@
 ---
 title: Сигнал Мессенджер
-layout: default
+layout: page
 bodyClass: page-home
 ---
 

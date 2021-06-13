@@ -1,6 +1,6 @@
 ---
 title: Sakha symbols in UTF-8
-layout: default
+layout: page
 bodyClass: page-home
 ---
 
