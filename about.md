@@ -6,15 +6,15 @@ bodyClass: page-home
 
 ## Kyraha.com
 
-This unique place on the Web you are staring at has been created and is voluntarily supported by Kyraha family (The Owner). Initially this web site was designed as a proving ground for testing new information technologies. It still is though. However that fact doesn't prevent it to exist for the common good. Many projects once started here as an experiment now got their own developers and continue to develop independently.
+This unique place on the Web on your screen was created and is voluntarily supported by the Kyraha family (The Owner). Initially this web site was designed as a proving ground for testing new information technologies. It still is though. However, this doesn't prevent it to exist for the common good. Many projects once started here as an experiment now have their own maintainers and continue to develop independently.
 
-If you would like to meet our local community - welcome to Sakha Open World. To get more info about Yakutia (Sakha) - try Yakutia Organized. If you're interested in Sakha Language and its appearance on the Net - please check out Orto Doydu
+If you would like to meet our ethnic community - welcome to Sakha Open World. To get more info about Yakutia (Sakha) - try Yakutia Organized. If you're interested in Sakha Language and its appearance on the Net - please check out Orto Doydu and/or [sah.wikipedia.org](https://sah.wikipedia.org)
 
-## Independence
+### Independence
 
-The Owner does not support nor express anyone else's interest except of their own. The web-site is a private project and is not sponsored by any other organization or government or group of individuals whatsoever
+The Owner does not support nor express anyone else's interest except of their own. The web-site is a private project and is not sponsored by any other organization or government or group of individuals whatsoever.
 
-## Copyright
+### Copyright
 
 The site owner respects intellectual property and expects the same from all the visitors. Should you believe that one or more of your things were copied without your consent, or your rights on your intellectual property are discriminated by any other means, please contact us immediately with the following information:
 
@@ -25,7 +25,7 @@ The site owner respects intellectual property and expects the same from all the 
     your personal statement in good faith that the disputed use of the property was not authorized by the owner of the copyrighted product or intellectual property, their legal representative or by the law;
 2.    your personal statement that you take full responsibility for the accuracy of the given information and you are the owner of the copyrighted product or intellectual property or you are a legal representative of such.
 
-## Disclaimer
+### Disclaimer
 
 All the information on this web site is published as is. The owner applies all reasonable efforts to check the accuracy of it, but does not guarantee that the published materials will be free of errors or misleading information. The owner is also not responsible for any direct or indirect losses because of the use or non-use of any information on the web site. Some of the materials on the web site may have their own authors. Publishing such materials does not mean that the owner automatically agrees with the view of the author(s).
 
